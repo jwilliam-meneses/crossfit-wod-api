@@ -14,7 +14,7 @@ const getOneWorkout = (req, res) => {
 const createNewWorkout = (req, res) => {
   const { body } = req
 
-  if (!body.name || !body.mode || !body.equipament || !body.exercises || !body.trainerTips) {
+  if (!body.name || !body.mode || !body.equipment || !body.exercises || !body.trainerTips) {
     return
   }
 
