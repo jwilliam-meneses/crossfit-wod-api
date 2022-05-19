@@ -21,18 +21,21 @@ const createNewWorkout = (newWorkout) => {
   const isAlreadyAdded = DB.workouts.findIndex((workout) => workout.name === newWorkout.name) > -1;
 
   if (isAlreadyAdded) {
+const deleteOneWorkout = (workoutId) => {
+  const indexForDeletion = DB.workouts.findIndex( workout => workout.id === workoutId)
+
+  if (indexForDeletion === -1) {
     return
   }
 
-  DB.workouts.push(newWorkout)
+  DB.workouts.splice(indexForDeletion, 1)
 
   saveToDatabase(DB)
-
-  return newWorkout
 }
 
 module.exports = {
   getAllWorkouts,
   getOneWorkout,
-  createNewWorkout
+  createNewWorkout,
+  deleteOneWorkout
 }
