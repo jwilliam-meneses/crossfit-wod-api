@@ -7,8 +7,15 @@ const getAllWorkouts = (req, res) => {
 }
 
 const getOneWorkout = (req, res) => {
-  const workout = workoutService.getOneWorkout()
-  res.send("Get an existing workout")
+  const { workoutId } = req.params
+
+  if (!workoutId) {
+    return
+  }
+
+  const workout = workoutService.getOneWorkout(workoutId)
+
+  res.status(200).send({ status: "OK", data: workout })
 }
 
 const createNewWorkout = (req, res) => {
