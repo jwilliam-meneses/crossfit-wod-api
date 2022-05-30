@@ -36,12 +36,6 @@ $ npm run dev
 # O servidor iniciará na porta:3000 - acesse <http://loclahost:3000>
 ```
 
-## EXEMPLO DE USO
-
-## CRÉDITOS
-
-## LICENÇA
-
 ---
 
-Feito com ♥ por Zé William :wave [Entre em contato!](https://www.linkedin.com/in/jwilliam-meneses/)
+Feito com ♥ por Zé William :wave: [Entre em contato!](https://www.linkedin.com/in/jwilliam-meneses/)
