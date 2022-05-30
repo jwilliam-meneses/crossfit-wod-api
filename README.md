@@ -20,7 +20,7 @@ As seguintes ferramentas foram usadas na construção desse projeto:
 - [body-parse](https://www.npmjs.com/package/body-parser)
 - [uuid](https://www.npmjs.com/package/uuid)
 
-## :rocket: COMO USAR ESSE PROJETO (GETTING STARTED)
+## :rocket: Como executar esse projeto
 
 ```bash
 # Clone este repositório
