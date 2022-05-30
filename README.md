@@ -8,7 +8,7 @@
 ## :zap: Pré-requisitos
 
 Antes de começar, você precisará ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [NPM](https://www.npmjs.com/) (ou [Yarn](https://www.npmjs.com/)).
 Além disto é bom ter um editor para trabalhar com o código. Recomendo muito o [VSCode](https://code.visualstudio.com/).
 
 ## :hammer: Tecnologias Usadas
