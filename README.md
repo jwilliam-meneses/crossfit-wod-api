@@ -1,7 +1,9 @@
 
-# CrossFit WOD API
+# Crossfit API
 
-## API REST para gerenciamento de WODs. Esse aplicativo ajudará aos usuários a criarem e manterem planos de treinos e até adicionar dicas de treinamento.
+## API para gerenciamento de WODs (Workout of the Day).
+
+### Esse aplicativo ajudará aos usuários a criarem e manterem planos de treinos (WODs) e até adicionar dicas de treinamento.
 
 ## :zap: Pré-requisitos
 
